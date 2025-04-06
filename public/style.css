@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+}
+h1{
+    color: rgb(240, 235, 235);
+}
+.title{
+    background-color: purple;
+    margin: 0;
+    padding: 10px;
+    color: azure;
+
+}
+.posts{
+    border: 1px solid purple;
+    width: 500px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.like{
+    background-color: rgb(41, 41, 192);
+    border: 2px solid blue;
+    color: white;
+}
+form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+}
+.add{
+    padding: 0;
+    border: 1px solid purple;
+    width: 500px;
+    
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.post{
+    width: 500px;
+   
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px rgb(119, 127, 147);
+    border-radius: 15px;
+    
+}
+.p{
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    margin: 0;
+}
+.body{
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+.replies{
+    padding: 20px;
+}
+.s_button{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   
+}
+.del{
+    display: flex;
+    width: auto;
+    margin: 0px;
+
+}
