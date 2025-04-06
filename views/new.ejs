@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Post</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Quora</h1>
+    </div>
+    <form action="/posts" method="post">
+        <input type="text" name="username" id="username" placeholder="Enter your Username:">
+        <textarea type="text" name="content" id="content" placeholder="Enter your Content:"></textarea>
+        <input type="hidden" name="id" id="id" value=<%post.id%>>
+        <button>Upload</button>
+    </form>
+    
+
+</body>
+</html>
